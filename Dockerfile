@@ -4,5 +4,5 @@ WORKDIR /app
 COPY package.json .
 RUN npm install
 COPY . .
-CMD ["npm", "run", "mocks"]
 EXPOSE 3100
+CMD ["npm", "run", "mocks"]
