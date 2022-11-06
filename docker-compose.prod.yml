@@ -1,7 +1,6 @@
 version: "3.7"
 services:
   mock-server:
-    image: mock-server
     container_name: mock-server
     ports:
       - "3100:3100"
