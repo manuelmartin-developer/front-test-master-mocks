@@ -4,6 +4,4 @@ services:
     container_name: mock-server
     ports:
       - "3100:3100"
-    volumes:
-      - ./mock-server:/mock-server
     command: npm run mocks
